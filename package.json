@@ -1,0 +1,27 @@
+{
+  "name": "qa-challenge",
+  "version": "1.0.0",
+  "description": "e2e test automation - Qa challenge",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:history": "if exist allure-report/history move allure-report/history allure-results/history",
+    "allure:clear": "if exist allure-results rmdir /s /q allure-results && if exist allure-report rmdir /s /q allure-report",
+    "allure:test": "npm run allure:clear && npm run allure:generate && npx cypress run && npm run allure:history && npm run allure:open",
+    "allure:open": "npx allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "allure-commandline": "^2.29.0",
+    "allure-cypress": "^2.15.0",
+    "cypress": "^13.13.0"
+  },
+  "dependencies": {
+    "cpf-cnpj-validator": "^1.0.3"
+  }
+}

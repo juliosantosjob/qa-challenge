@@ -1,0 +1,25 @@
+{
+  "proficiency": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+  ],
+  "zipCode": [
+      "01310200",
+      "04101300",
+      "60160280",
+      "79002221"
+  ],
+  "neighborhood": [
+      "Ipanema",
+      "Copacabana",
+      "Leblon",
+      "Barra da Tijuca"
+  ],
+  "street": [
+      "Rua Visconde de Pirajá",
+      "Avenida Atlântica",
+      "Avenida Vieira Souto",
+      "Avenida das Américas"
+  ]
+}

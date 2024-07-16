@@ -1,19 +1,35 @@
-		
-# qa-challenge
+# Devolutiva do Desafio
 
-Olá!
+Segue a minha implementação para o resolvimento do desafio proposto.
 
-Este desafio consiste em avaliar seu conhecimento e habilidades em testes automatizados, portanto esperamos que você tente resolve-lo usando toda a sua capacidade e compreensão da tecnologia aplicada.
+## Pré-requisitos
 
-O Desafio é o seguinte:
+- [Node.js](https://nodejs.org/)
+- IDE de sua preferencia
 
-Acesse esse link https://qastage.buildbox.one/18/cadastro 
+## Execução
 
-Desenvolva casos de teste automatizados para validar o processo de cadastro em uma Aplicação Web. Os testes devem cobrir diferentes cenários, incluindo entradas válidas e inválidas, verificação de campos obrigatórios, validação de formatos de dados, entre outros aspectos relevantes para garantir a funcionalidade da tela de cadastro.
+1. Clone o repositório:
 
-Projetos que demonstrarem uso eficiente do Cypress, bem como a implementação de comandos personalizados, serão valorizados e receberão pontos adicionais.
+   ```sh
+   git clone https://github.com/juliosantosjob/qa-challenge.git
+    ```
 
-Certifique-se de que seu pull request está sendo enviado no link do formulário de submissão para a vaga.
+2. Navegue até o repostiorio do projeto e rode o seguinte comando para instalar as dependencias.
 
-Estou ansioso para ver sua abordagem criativa e eficiente para este desafio de testes automatizados.
-Boa sorte!
+   ```sh
+   npm install
+    ```
+
+3. Execute o projeto utilizando o seguinte comando para visualizar em seguida o resultado da execução pelo allure report.
+
+   ```sh
+   npm run allure:test
+    ```
+
+
+Estou à disposição para esclarecer qualquer dúvida. Seguem meus contatos:
+
+E-mail: julio958214@gmail.com
+<br>
+LinkedIn: [Julio Cesar dos Santos](https://www.linkedin.com/in/julio-santos-43428019b)
